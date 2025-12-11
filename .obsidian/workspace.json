@@ -11,16 +11,14 @@
             "id": "d6f25bc03a8b5bf3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 796,
-                "zoom": 1.3137254901960784
+                "file": "course/CS336/Lecture 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts"
+              "icon": "lucide-file",
+              "title": "Lecture 1"
             }
           }
         ]
@@ -189,8 +187,9 @@
   },
   "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
-    "Paper/未命名.canvas",
     "Paper/CAD/HNC.pdf",
+    "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
+    "Paper/未命名.canvas",
     "Paper/CAD/CAD-Editor.pdf",
     "Paper/CAD/2105.09492v2.pdf",
     "Paper/DeepCAD.md",
