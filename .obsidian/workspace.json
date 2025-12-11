@@ -11,16 +11,14 @@
             "id": "785f1dd31ab17e9f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "Paper/CAD/CAD-Editor.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 310,
-                "zoom": 1.3137254901960784
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "CAD-Editor"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -190,6 +188,7 @@
   "active": "785f1dd31ab17e9f",
   "lastOpenFiles": [
     "Paper/CAD/HCC.pdf",
+    "Paper/CAD/CAD-Editor.pdf",
     "Paper/CAD/2105.09492v2.pdf",
     "Paper/DeepCAD.md",
     "Paper/B-rep.md",
@@ -207,7 +206,6 @@
     "Paper/CAD/train.py",
     "Paper/CAD/text_embed.py",
     "Paper/CAD/text2cad.py",
-    "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
-    "Paper/CAD/GenCAD.pdf"
+    "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf"
   ]
 }
