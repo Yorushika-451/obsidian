@@ -14,8 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/CAD/CAD RL.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 2,
+                "left": 0,
+                "top": 600,
+                "zoom": 0.8431372549019608
               },
               "icon": "lucide-file-text",
               "title": "CAD RL"
