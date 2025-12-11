@@ -11,10 +11,16 @@
             "id": "d6f25bc03a8b5bf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "pdf",
+              "state": {
+                "file": "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
+                "page": 1,
+                "left": -12,
+                "top": 796,
+                "zoom": 1.3137254901960784
+              },
+              "icon": "lucide-file-text",
+              "title": "Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts"
             }
           }
         ]
@@ -183,13 +189,13 @@
   },
   "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
-    "Paper/CAD/HCC.pdf",
+    "Paper/未命名.canvas",
+    "Paper/CAD/HNC.pdf",
     "Paper/CAD/CAD-Editor.pdf",
     "Paper/CAD/2105.09492v2.pdf",
     "Paper/DeepCAD.md",
     "Paper/B-rep.md",
     "Paper/Attention.md",
-    "Paper/未命名.canvas",
     "未命名.canvas",
     "未命名.base",
     "course/CS336/picture/tokenized-example.png",
@@ -201,7 +207,6 @@
     "Paper/Text2CAD.md",
     "Paper/CAD/train.py",
     "Paper/CAD/text_embed.py",
-    "Paper/CAD/text2cad.py",
-    "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf"
+    "Paper/CAD/text2cad.py"
   ]
 }
