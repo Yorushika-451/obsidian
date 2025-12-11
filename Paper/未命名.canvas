@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"e61d5728100617a9","x":-380,"y":-27,"width":250,"height":60,"type":"text","text":"AI Agent"},
+		{"id":"c34474445fdf7b62","x":-20,"y":-27,"width":240,"height":60,"type":"text","text":"MCP Sever"},
+		{"id":"8789064ef5bac24b","x":420,"y":-27,"width":250,"height":60,"type":"text","text":"工业软件"}
+	],
+	"edges":[
+		{"id":"c9c98320e29d0006","fromNode":"e61d5728100617a9","fromSide":"top","toNode":"c34474445fdf7b62","toSide":"top","label":"MCP请求"},
+		{"id":"9af34f7317139cdb","fromNode":"c34474445fdf7b62","fromSide":"top","toNode":"8789064ef5bac24b","toSide":"top","label":"COM API 调用"},
+		{"id":"0fbd0de4f5fde07e","fromNode":"8789064ef5bac24b","fromSide":"bottom","toNode":"c34474445fdf7b62","toSide":"bottom","label":"操作结果"},
+		{"id":"d3939605c37c345c","fromNode":"c34474445fdf7b62","fromSide":"bottom","toNode":"e61d5728100617a9","toSide":"bottom","label":"JSON响应"}
+	]
+}
