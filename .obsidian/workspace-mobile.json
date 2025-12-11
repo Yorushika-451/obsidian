@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/CAD/CAD RL.pdf",
-                "page": 2,
+                "page": 3,
                 "left": 0,
-                "top": 600,
+                "top": 446,
                 "zoom": 0.8431372549019608
               },
               "icon": "lucide-file-text",
@@ -164,6 +164,8 @@
   },
   "active": "ae2d46e73489ca20",
   "lastOpenFiles": [
+    "course/CS336/Assignment 1 The first Transformer LM.md",
+    "Paper/CAD/CAD RL.pdf",
     "Paper/CAD/2105.09492v2.pdf",
     "Paper/DeepCAD.md",
     "course/CS336/Lecture 1.md",
