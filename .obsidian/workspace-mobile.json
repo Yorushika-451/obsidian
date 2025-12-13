@@ -11,16 +11,13 @@
             "id": "ae2d46e73489ca20",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "bases",
               "state": {
-                "file": "Paper/CAD/CAD RL.pdf",
-                "page": 3,
-                "left": 0,
-                "top": 446,
-                "zoom": 0.8431372549019608
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file-text",
-              "title": "CAD RL"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
         ]
@@ -141,9 +138,19 @@
           "icon": "lucide-list",
           "title": "大纲"
         }
+      },
+      {
+        "id": "2789847d44a2aded",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,9 +171,11 @@
   },
   "active": "ae2d46e73489ca20",
   "lastOpenFiles": [
-    "course/CS336/Assignment 1 The first Transformer LM.md",
-    "Paper/CAD/CAD RL.pdf",
     "Paper/CAD/2105.09492v2.pdf",
+    "Paper/未命名.canvas",
+    "Paper/CAD/CAD RL.pdf",
+    "Untitled.base",
+    "course/CS336/Assignment 1 The first Transformer LM.md",
     "Paper/DeepCAD.md",
     "course/CS336/Lecture 1.md",
     "Paper/Attention.md",
