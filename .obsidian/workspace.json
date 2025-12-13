@@ -11,14 +11,16 @@
             "id": "d6f25bc03a8b5bf3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "course/CS336/Lecture 1.md",
-                "mode": "source",
-                "source": false
+                "file": "Paper/CAD/CAD-Editor.pdf",
+                "page": 1,
+                "left": -13,
+                "top": 574,
+                "zoom": 1.1372549019607843
               },
-              "icon": "lucide-file",
-              "title": "Lecture 1"
+              "icon": "lucide-file-text",
+              "title": "CAD-Editor"
             }
           }
         ]
@@ -187,6 +189,10 @@
   },
   "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
+    "开题报告/main.md",
+    "course/CS336/Lecture 1.md",
+    "开题报告",
+    "course/未命名",
     "Paper/CAD/HNC.pdf",
     "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
     "Paper/未命名.canvas",
@@ -199,13 +205,9 @@
     "未命名.base",
     "course/CS336/picture/tokenized-example.png",
     "course/CS336/picture",
-    "course/CS336/Lecture 1.md",
     "course/CS336/Assignment 1 The first Transformer LM.md",
     "course/CS336",
     "course",
-    "Paper/Text2CAD.md",
-    "Paper/CAD/train.py",
-    "Paper/CAD/text_embed.py",
-    "Paper/CAD/text2cad.py"
+    "Paper/Text2CAD.md"
   ]
 }
