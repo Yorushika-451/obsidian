@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Paper/CAD/CAD-Editor.pdf",
-                "page": 3,
-                "left": -14,
-                "top": 381,
-                "zoom": 1.1188725490196079
+                "file": "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
+                "page": 12,
+                "left": -12,
+                "top": 412,
+                "zoom": 1.2916716183103294
               },
               "icon": "lucide-file-text",
-              "title": "CAD-Editor"
+              "title": "Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library)"
             }
           }
         ]
@@ -187,11 +187,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "34be25e0649ac57c",
+  "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
     "Book/百面大模型.pdf",
-    "Paper/CAD/CAD-Editor.pdf",
     "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
+    "Paper/CAD/CAD-Editor.pdf",
     "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
     "Book/Python编程导论第2版 by [美] John V . Guttag 著  译者：陈光欣 (z.pdf",
     "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
