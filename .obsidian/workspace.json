@@ -16,7 +16,7 @@
                 "file": "Paper/CAD/CAD-Editor.pdf",
                 "page": 3,
                 "left": -14,
-                "top": 377,
+                "top": 381,
                 "zoom": 1.1188725490196079
               },
               "icon": "lucide-file-text",
@@ -187,17 +187,17 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "62e7888f100ae9ba",
+  "active": "34be25e0649ac57c",
   "lastOpenFiles": [
-    "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
     "Book/百面大模型.pdf",
+    "Paper/CAD/CAD-Editor.pdf",
+    "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
     "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
     "Book/Python编程导论第2版 by [美] John V . Guttag 著  译者：陈光欣 (z.pdf",
     "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
     "Book",
     "Untitled.base",
     "Paper/CAD/HNC.pdf",
-    "Paper/CAD/CAD-Editor.pdf",
     "开题报告/main.md",
     "course/CS336/Lecture 1.md",
     "开题报告",
