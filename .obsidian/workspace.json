@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/CAD/CAD-Editor.pdf",
-                "page": 1,
-                "left": -13,
-                "top": 796,
-                "zoom": 1.1372549019607843
+                "page": 3,
+                "left": -14,
+                "top": 377,
+                "zoom": 1.1188725490196079
               },
               "icon": "lucide-file-text",
               "title": "CAD-Editor"
@@ -187,8 +187,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d6f25bc03a8b5bf3",
+  "active": "62e7888f100ae9ba",
   "lastOpenFiles": [
+    "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
+    "Book/百面大模型.pdf",
+    "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
+    "Book/Python编程导论第2版 by [美] John V . Guttag 著  译者：陈光欣 (z.pdf",
+    "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
+    "Book",
     "Untitled.base",
     "Paper/CAD/HNC.pdf",
     "Paper/CAD/CAD-Editor.pdf",
@@ -196,19 +202,13 @@
     "course/CS336/Lecture 1.md",
     "开题报告",
     "course/未命名",
-    "Paper/CAD/Text2CAD Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts.pdf",
     "Paper/未命名.canvas",
-    "Paper/CAD/2105.09492v2.pdf",
     "Paper/DeepCAD.md",
     "Paper/B-rep.md",
     "Paper/Attention.md",
     "未命名.canvas",
-    "未命名.base",
     "course/CS336/picture/tokenized-example.png",
-    "course/CS336/picture",
     "course/CS336/Assignment 1 The first Transformer LM.md",
-    "course/CS336",
-    "course",
     "Paper/Text2CAD.md"
   ]
 }
