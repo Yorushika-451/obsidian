@@ -13,28 +13,17 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
-                "page": 1,
-                "zoom": 1
+                "file": "Book/百面大模型.pdf",
+                "page": 23,
+                "left": 67,
+                "top": 2,
+                "zoom": 1.4026220788180408
               },
               "icon": "lucide-file-text",
-              "title": "Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library)"
-            }
-          },
-          {
-            "id": "940da9331a022f93",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.10.6"
+              "title": "百面大模型"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,34 +181,35 @@
       "bases:创建新数据库": false,
       "cubox-sync:Cubox": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "940da9331a022f93",
+  "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
-    "tools/obsidian_lfs_sync.py",
-    "tools",
-    "Book/百面大模型.pdf",
-    "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
-    "Paper/CAD/CAD-Editor.pdf",
+    "Book/Natural language processing with Transformers _ building -- Lewis Tunstall, Leandro von Werra, Thomas Wolf -- Revised edition, Sebastopol, CA, 2022 -- 9781098103170 -- 5a3afccbac19a77dd92544d26c81e0e9 -- Anna’s Archive.pdf",
+    "Book/信息检索导论 -- (美)曼宁,(美)拉哈万,(德)舒策著, (美)Christopher D_ Manning, (美)Prabhakar -- 2010, 2010 -- 北京;人民邮电出版社 -- 9787115234247 -- 335772912c6ee0b0fbc1f022115a46b2 -- Anna’s Archive.pdf",
+    "Book/数据密集型应用系统设计 [图像优化版] -- Martin Kleppmann 著, 赵军平 ⁄ 李三平 ⁄ 吕云松 ⁄ 耿煜 译 -- 1, PT, 2018 -- 中国电力出版社 -- 9787519821968 -- 7ef76052f3da9aae2d084723c16afe70 -- Anna’s Archive.pdf",
+    "Book/传世经典书丛  Clean Code  评注版 -- (美)马丁著, (mei) Luo Bo Te Ma Ding (robert C_martin) Han Lei -- 2012, 2012 -- 北京;电子工业出版社 -- 9787121155055 -- 97f94a73e7eb31a3299cbe7c39dd5142 -- Anna’s Archive.pdf",
+    "Book/Effective Python  编写高质量Python代码的59个有效方法 -- (美)斯拉特金著 -- 2016 -- 机械工业出版社 -- 8c6f70735e70574537170d00c81155cc -- Anna’s Archive.pdf",
+    "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
     "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
     "Book/Python编程导论第2版 by [美] John V . Guttag 著  译者：陈光欣 (z.pdf",
-    "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
-    "Book",
-    "Untitled.base",
-    "Paper/CAD/HNC.pdf",
+    "Book/百面大模型.pdf",
+    "Paper/CAD/CAD-Assistant.pdf",
+    "Paper/CAD/CAD RL.pdf",
+    "Paper/DeepCAD.md",
+    "Paper/Text2CAD.md",
+    "Paper/Attention.md",
+    "tools/obsidian_lfs_sync.py.md",
     "开题报告/main.md",
     "course/CS336/Lecture 1.md",
     "Paper/未命名.canvas",
-    "Paper/DeepCAD.md",
     "Paper/B-rep.md",
-    "Paper/Attention.md",
     "未命名.canvas",
     "course/CS336/picture/tokenized-example.png",
-    "course/CS336/Assignment 1 The first Transformer LM.md",
-    "Paper/Text2CAD.md"
+    "course/CS336/Assignment 1 The first Transformer LM.md"
   ]
 }
