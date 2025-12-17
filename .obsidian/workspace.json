@@ -14,16 +14,27 @@
               "type": "pdf",
               "state": {
                 "file": "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
-                "page": 12,
-                "left": -12,
-                "top": 412,
-                "zoom": 1.2916716183103294
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library)"
             }
+          },
+          {
+            "id": "940da9331a022f93",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,14 +192,16 @@
       "bases:创建新数据库": false,
       "cubox-sync:Cubox": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6f25bc03a8b5bf3",
+  "active": "940da9331a022f93",
   "lastOpenFiles": [
+    "tools/obsidian_lfs_sync.py",
+    "tools",
     "Book/百面大模型.pdf",
     "Book/Deep Learning A Visual Approach (Andrew Glassner).pdf",
     "Paper/CAD/CAD-Editor.pdf",
@@ -200,8 +213,6 @@
     "Paper/CAD/HNC.pdf",
     "开题报告/main.md",
     "course/CS336/Lecture 1.md",
-    "开题报告",
-    "course/未命名",
     "Paper/未命名.canvas",
     "Paper/DeepCAD.md",
     "Paper/B-rep.md",
