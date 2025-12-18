@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "389d807905b81be0",
+        "id": "43aff6bfd36bd800",
         "type": "tabs",
         "children": [
           {
-            "id": "cc3d6bc245ee64de",
+            "id": "d6f25bc03a8b5bf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "main"
-            }
-          },
-          {
-            "id": "a980d4950edf373f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Book/百面大模型.pdf",
-                "page": 23,
-                "left": 22,
-                "top": -7,
-                "zoom": 0.98
-              },
-              "icon": "lucide-file-text",
-              "title": "百面大模型"
             }
           }
         ]
@@ -94,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e26307b8651e45dc",
@@ -183,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,30 +185,28 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cc3d6bc245ee64de",
+  "active": "d6f25bc03a8b5bf3",
   "lastOpenFiles": [
     "Book/百面大模型.pdf",
-    "开题报告/main.md",
-    "Paper/CAD/CAD-Assistant.pdf",
-    "Paper/CAD/2105.09492v2.pdf",
-    "Paper/DeepCAD.md",
-    "2105.09492v2.pdf.md",
-    "Paper/CAD/CAD RL.pdf",
-    "Paper/CAD/CAD-Editor.pdf",
-    "2024-05-27.md",
-    "未命名.canvas",
-    "未命名.base",
-    "Untitled.base",
-    "course/名词概念/LoRa.md",
-    "course/名词概念",
     "Book/Natural language processing with Transformers _ building -- Lewis Tunstall, Leandro von Werra, Thomas Wolf -- Revised edition, Sebastopol, CA, 2022 -- 9781098103170 -- 5a3afccbac19a77dd92544d26c81e0e9 -- Anna’s Archive.pdf",
     "Book/信息检索导论 -- (美)曼宁,(美)拉哈万,(德)舒策著, (美)Christopher D_ Manning, (美)Prabhakar -- 2010, 2010 -- 北京;人民邮电出版社 -- 9787115234247 -- 335772912c6ee0b0fbc1f022115a46b2 -- Anna’s Archive.pdf",
+    "Book/数据密集型应用系统设计 [图像优化版] -- Martin Kleppmann 著, 赵军平 ⁄ 李三平 ⁄ 吕云松 ⁄ 耿煜 译 -- 1, PT, 2018 -- 中国电力出版社 -- 9787519821968 -- 7ef76052f3da9aae2d084723c16afe70 -- Anna’s Archive.pdf",
+    "Book/传世经典书丛  Clean Code  评注版 -- (美)马丁著, (mei) Luo Bo Te Ma Ding (robert C_martin) Han Lei -- 2012, 2012 -- 北京;电子工业出版社 -- 9787121155055 -- 97f94a73e7eb31a3299cbe7c39dd5142 -- Anna’s Archive.pdf",
+    "Book/Effective Python  编写高质量Python代码的59个有效方法 -- (美)斯拉特金著 -- 2016 -- 机械工业出版社 -- 8c6f70735e70574537170d00c81155cc -- Anna’s Archive.pdf",
+    "Book/Deep Learning (Ian Goodfellow Yoshua Bengio Aaron Courville) (Z-Library).pdf",
+    "Book/Python编程快速上手：让繁琐工作自动化 (Al Sweigart) (Z-Library).pdf",
+    "Book/Python编程导论第2版 by [美] John V . Guttag 著  译者：陈光欣 (z.pdf",
+    "Paper/CAD/CAD-Assistant.pdf",
+    "Paper/CAD/CAD RL.pdf",
+    "Paper/DeepCAD.md",
     "Paper/Text2CAD.md",
     "Paper/Attention.md",
     "tools/obsidian_lfs_sync.py.md",
+    "开题报告/main.md",
     "course/CS336/Lecture 1.md",
     "Paper/未命名.canvas",
     "Paper/B-rep.md",
+    "未命名.canvas",
     "course/CS336/picture/tokenized-example.png",
     "course/CS336/Assignment 1 The first Transformer LM.md"
   ]
