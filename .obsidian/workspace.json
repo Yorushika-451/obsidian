@@ -230,8 +230,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "cc3d6bc245ee64de",
+  "active": "62e7888f100ae9ba",
   "lastOpenFiles": [
+    "Book/d2l-zh-pytorch.pdf",
+    "Book/DL中文.pdf",
+    "Book/modern-cpp-tutorial-zh-cn.pdf",
     "基础算法/相向双指针.md",
     "Leetcode.md",
     "相向双指针^.md",
@@ -250,8 +253,6 @@
     "Paper/CAD/CAD-Assistant.pdf",
     "Book/Build a Large Language Model (From Scratch).pdf",
     "Book/C++ Primer Plus 第6版 中文版 by Stephen Prata (z-lib.o.pdf",
-    "Book/流畅的Python = Fluent Python clear, concise, and effective programming by Luciano Ramalho (z-lib.org).pdf",
-    "Book/Effective Modern C++ 42 Specific Ways to Improve Your Use of C++11 and C++14 (Scott Meyers) (Z-Library).pdf",
     "Paper/DeepCAD.md",
     "course/名词概念/LoRa.md",
     "Paper/Text2CAD.md",
