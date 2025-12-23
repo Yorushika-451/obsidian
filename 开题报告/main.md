@@ -75,6 +75,8 @@
 
 
 <h1>研究路线</h1>
+
+<h2>一：利用FreeCAD API  补全</h2>
 <h2>数据条件</h2>
 **只有STEP**
 STEP只有B-rep几何，不包含草图，约束，特征树，因此无法进行监督学习
@@ -96,7 +98,7 @@ Free CAD `.FCStd` Fusion360 `.f3d` Onshape FeatureScript CADQuery
  - [ ] 统一输出: `FCStd+STEP+mesh`, 渲染多视图图像
  - [ ] 设计工具函数：创建平面草图，拉伸旋转
 
-<h4>0.2 STEP-only 条件下的数据构造 </h4>
+<h4>0.2 条件下的数据构造 </h4>
 - [ ] 程序化生成零件家族 用FreeCAD Python 随机采样参数 生成可编辑脚本同时导出 STEP
 - [ ] 自动生成结构化规格说明（JSON) 与自然语言说明(Prompt)
 - [ ] 得到`text/spec - FreeCAD脚本 - STEP` 作为训练集
@@ -108,10 +110,6 @@ Free CAD `.FCStd` Fusion360 `.f3d` Onshape FeatureScript CADQuery
 <h4>0.4 无训练 Agent baseline</h4>
 - [ ] 直接通用LLM+CAD-Assistant 的提示模式，让他学会调用工具函数建模
 
-<h3>Phase 0交付物</h3>
-- 一个可运行的demo： 输入“模具类零件需求” --> 输出 FreeCAD工程+STEP+渲染图
-- 一个数据生成器: 生成数据集
-- 一个评测脚本：自动跑几何指标+失败日志
 
 <h2>Phase 1  领域CAD大模型(SFT/LoRA)</h2>
 
@@ -132,9 +130,6 @@ Free CAD `.FCStd` Fusion360 `.f3d` Onshape FeatureScript CADQuery
 - [ ] 输出格式约束：只允许调用你封装的FreeCAD 工具函数
 - [ ] 自动单元测试：每个脚本都执行一遍，失败样品回流到负样品集
 
-<h4>Phase 1 交付物 </h4>
-- [ ] 一个可部署的模型API
-- [ ] 一个离线评测报告
 
 论文复现：CAD-Coder/ FlEXCAD
 
@@ -156,9 +151,53 @@ Free CAD `.FCStd` Fusion360 `.f3d` Onshape FeatureScript CADQuery
 - [ ] CAD-Editor：先locate(找要改的特征/面/草图),再infill(改对应的脚本/参数)
 - [ ] 定义模具类的locate
 
-<h4>Phrase 2 交付物 </h4>
-- [ ] CAD-Agent 服务：支持从头生成+局部修复+自动修复
-- [ ] 用真实STEP作为测试机报告：比较提升率
 
 参考论文：CAD- Editor/CAD RL 
- 
+
+<h2>利用已经复现的论文 Text2CAD 精简数据集进行 微调</h2>
+
+<h3>Text2CAD的样本单位与筛选入口</h3>
+1. Text2CAD每个CAD模型对应四种提示词等级(L0,L1,L2,L3:abstract/beginner/intermediate/expert),论文里评估CAD通常指用L3
+2. 同时它在数据预处理会把DeepCAD原始JSON改成minimal metadata(去掉随机KEY和冗余字段)
+3. 提示词多样性：同一个形状可能不出现明确物体名，不能只靠"关键词=物体名"来筛选
+
+因此：
+**筛选最好以L3文本为主，几何/序列特征为辅助**
+**切分必须以CAD model id 为单位**
+
+<h3>总体步骤</h3>
+
+<h4>step1:拉取并盘点数据结构</h3>
+- model_CSV
+	- model_id 
+	- prompt_L0,L1,L2
+- cad_sequence 
+- (op) minimal metadata
+<h4>Step2:定义模具领域的筛选规则</h4>
+文本判别：关键词/语义相似度(embedding)/小分类起 
+CAD序列：从minimal json/metadata中提取
+
+<h4>筛选出统计报告,用model_id切分train/val/test</h4>
+- 以model_id 分组后在split
+- 评估集用L3 prompt ，训练可混合L1，L2，但L3权重更重
+
+<h4>Step3 导出数据集对模型进行微调</h4>
+
+<h4> Step4 构建智能体</h4>
+- Tool1:`genereate_cad(prompt) -> cad_sequence`
+- Tool2: 用现有脚本重建渲染
+- Agent Loop: 学习错误日志
+
+<h3>WHUCAD 包含比Text2CAD更多的特征</h3>
+1. **拿到数据 & 跑通解析**
+	-  用仓库里的 loader 把 `.h5` 解成命令序列 + 参数
+2.  统计 WHUCAD 的命令集合 `C_whucad`,统计当前 Text2CAD/DeepCAD 的命令集合`C_text2cad`分成两堆：`C_whucad ∩ C_text2cad`（可直接用）和 `C_whucad \ C_text2cad`（要丢/要扩展）
+3. **做数据切分（**  
+- **规则/几何启发式**：比如只保留某些尺寸范围、特征数量范围、是否含孔/倒角等（
+- **VLM 打标**：用多视图渲染图让 VLM 给类别/用途/部件类型标签，再按标签筛（[GitHub](https://github.com/fazhihe/WHUCAD)）
+- **LLM 读历史生成标签**：把命令序列摘要喂给 LLM 生成部件类型/工艺特征的标签
+1. **补齐 Text2CAD 需要的文本 
+	先从 CAD 序列抽一个 **minimal metadata**再生成 L0/L1/L2/L3（文本
+2. **组装成训练对： (text prompt, CAD sequence)**  
+    把 WHUCAD 的样本格式对齐到已经复现的 Text2CAD dataloader。
+3. **LoRA 微调 + 评测**
